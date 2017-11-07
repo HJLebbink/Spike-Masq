@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Spike-Tools-LIB", "Spike-Tools-LIB\Spike-Tools-LIB.vcxproj", "{35094CB1-4279-49F4-9EC0-0E47DC2361A7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Spike-DataSet-Lib", "Spike-DataSet-LIB\Spike-DataSet-LIB.vcxproj", "{E2B3B7E9-3BD6-4333-9DD9-32550EF29A1A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Spike-Masquelier-LIB", "Spike-Masquelier-LIB\Spike-Masquelier-LIB.vcxproj", "{1E138339-19AE-43B4-B75D-EECE65676C1A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Spike-Masquelier-Main", "Spike-masquelier-Main\Spike-Masquelier-Main.vcxproj", "{832FB8BF-3373-4F96-B622-CC3AAD2D5092}"
+	ProjectSection(ProjectDependencies) = postProject
+		{67AB1DE2-B06E-4DC1-AEBB-CB1E8E593655} = {67AB1DE2-B06E-4DC1-AEBB-CB1E8E593655}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libmatio", "matio-1.5.2\libmatio.vcxproj", "{67AB1DE2-B06E-4DC1-AEBB-CB1E8E593655}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Pocket PC 2003 (ARMV4) = Debug|Pocket PC 2003 (ARMV4)
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Pocket PC 2003 (ARMV4) = Release|Pocket PC 2003 (ARMV4)
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35094CB1-4279-49F4-9EC0-0E47DC2361A7}.Debug|Pocket PC 2003 (ARMV4).ActiveCfg = Debug|x64
+		{35094CB1-4279-49F4-9EC0-0E47DC2361A7}.Debug|Win32.ActiveCfg = Debug|x64
+		{35094CB1-4279-49F4-9EC0-0E47DC2361A7}.Debug|x64.ActiveCfg = Debug|x64
+		{35094CB1-4279-49F4-9EC0-0E47DC2361A7}.Debug|x64.Build.0 = Debug|x64
+		{35094CB1-4279-49F4-9EC0-0E47DC2361A7}.Debug|x86.ActiveCfg = Debug|x64
+		{35094CB1-4279-49F4-9EC0-0E47DC2361A7}.Release|Pocket PC 2003 (ARMV4).ActiveCfg = Release|x64
+		{35094CB1-4279-49F4-9EC0-0E47DC2361A7}.Release|Win32.ActiveCfg = Release|x64
+		{35094CB1-4279-49F4-9EC0-0E47DC2361A7}.Release|x64.ActiveCfg = Release|x64
+		{35094CB1-4279-49F4-9EC0-0E47DC2361A7}.Release|x64.Build.0 = Release|x64
+		{35094CB1-4279-49F4-9EC0-0E47DC2361A7}.Release|x86.ActiveCfg = Release|x64
+		{E2B3B7E9-3BD6-4333-9DD9-32550EF29A1A}.Debug|Pocket PC 2003 (ARMV4).ActiveCfg = Debug|x64
+		{E2B3B7E9-3BD6-4333-9DD9-32550EF29A1A}.Debug|Win32.ActiveCfg = Debug|x64
+		{E2B3B7E9-3BD6-4333-9DD9-32550EF29A1A}.Debug|x64.ActiveCfg = Debug|x64
+		{E2B3B7E9-3BD6-4333-9DD9-32550EF29A1A}.Debug|x64.Build.0 = Debug|x64
+		{E2B3B7E9-3BD6-4333-9DD9-32550EF29A1A}.Debug|x86.ActiveCfg = Debug|x64
+		{E2B3B7E9-3BD6-4333-9DD9-32550EF29A1A}.Release|Pocket PC 2003 (ARMV4).ActiveCfg = Release|x64
+		{E2B3B7E9-3BD6-4333-9DD9-32550EF29A1A}.Release|Win32.ActiveCfg = Release|x64
+		{E2B3B7E9-3BD6-4333-9DD9-32550EF29A1A}.Release|x64.ActiveCfg = Release|x64
+		{E2B3B7E9-3BD6-4333-9DD9-32550EF29A1A}.Release|x64.Build.0 = Release|x64
+		{E2B3B7E9-3BD6-4333-9DD9-32550EF29A1A}.Release|x86.ActiveCfg = Release|x64
+		{1E138339-19AE-43B4-B75D-EECE65676C1A}.Debug|Pocket PC 2003 (ARMV4).ActiveCfg = Debug|x64
+		{1E138339-19AE-43B4-B75D-EECE65676C1A}.Debug|Win32.ActiveCfg = Debug|x64
+		{1E138339-19AE-43B4-B75D-EECE65676C1A}.Debug|x64.ActiveCfg = Debug|x64
+		{1E138339-19AE-43B4-B75D-EECE65676C1A}.Debug|x64.Build.0 = Debug|x64
+		{1E138339-19AE-43B4-B75D-EECE65676C1A}.Debug|x86.ActiveCfg = Debug|x64
+		{1E138339-19AE-43B4-B75D-EECE65676C1A}.Release|Pocket PC 2003 (ARMV4).ActiveCfg = Release|x64
+		{1E138339-19AE-43B4-B75D-EECE65676C1A}.Release|Win32.ActiveCfg = Release|x64
+		{1E138339-19AE-43B4-B75D-EECE65676C1A}.Release|x64.ActiveCfg = Release|x64
+		{1E138339-19AE-43B4-B75D-EECE65676C1A}.Release|x64.Build.0 = Release|x64
+		{1E138339-19AE-43B4-B75D-EECE65676C1A}.Release|x86.ActiveCfg = Release|x64
+		{832FB8BF-3373-4F96-B622-CC3AAD2D5092}.Debug|Pocket PC 2003 (ARMV4).ActiveCfg = Debug|x64
+		{832FB8BF-3373-4F96-B622-CC3AAD2D5092}.Debug|Win32.ActiveCfg = Debug|x64
+		{832FB8BF-3373-4F96-B622-CC3AAD2D5092}.Debug|x64.ActiveCfg = Debug|x64
+		{832FB8BF-3373-4F96-B622-CC3AAD2D5092}.Debug|x64.Build.0 = Debug|x64
+		{832FB8BF-3373-4F96-B622-CC3AAD2D5092}.Debug|x86.ActiveCfg = Debug|x64
+		{832FB8BF-3373-4F96-B622-CC3AAD2D5092}.Release|Pocket PC 2003 (ARMV4).ActiveCfg = Release|x64
+		{832FB8BF-3373-4F96-B622-CC3AAD2D5092}.Release|Win32.ActiveCfg = Release|x64
+		{832FB8BF-3373-4F96-B622-CC3AAD2D5092}.Release|x64.ActiveCfg = Release|x64
+		{832FB8BF-3373-4F96-B622-CC3AAD2D5092}.Release|x64.Build.0 = Release|x64
+		{832FB8BF-3373-4F96-B622-CC3AAD2D5092}.Release|x86.ActiveCfg = Release|x64
+		{67AB1DE2-B06E-4DC1-AEBB-CB1E8E593655}.Debug|Pocket PC 2003 (ARMV4).ActiveCfg = Debug|x64
+		{67AB1DE2-B06E-4DC1-AEBB-CB1E8E593655}.Debug|Win32.ActiveCfg = Debug|x64
+		{67AB1DE2-B06E-4DC1-AEBB-CB1E8E593655}.Debug|x64.ActiveCfg = Debug|x64
+		{67AB1DE2-B06E-4DC1-AEBB-CB1E8E593655}.Debug|x64.Build.0 = Debug|x64
+		{67AB1DE2-B06E-4DC1-AEBB-CB1E8E593655}.Debug|x86.ActiveCfg = Debug|x64
+		{67AB1DE2-B06E-4DC1-AEBB-CB1E8E593655}.Release|Pocket PC 2003 (ARMV4).ActiveCfg = Release|x64
+		{67AB1DE2-B06E-4DC1-AEBB-CB1E8E593655}.Release|Win32.ActiveCfg = Release|x64
+		{67AB1DE2-B06E-4DC1-AEBB-CB1E8E593655}.Release|x64.ActiveCfg = Release|x64
+		{67AB1DE2-B06E-4DC1-AEBB-CB1E8E593655}.Release|x64.Build.0 = Release|x64
+		{67AB1DE2-B06E-4DC1-AEBB-CB1E8E593655}.Release|x86.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A00D9D9F-2281-4C2D-9046-B8D532BB0C38}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="v3\Topology.hpp">
+      <Filter>Header Files\v3</Filter>
+    </ClInclude>
+    <ClInclude Include="v3\IncommingSpikeQueue.hpp">
+      <Filter>Header Files\v3</Filter>
+    </ClInclude>
+    <ClInclude Include="v3\Types.hpp">
+      <Filter>Header Files\v3</Filter>
+    </ClInclude>
+    <ClInclude Include="v3\SpikeHistory.hpp">
+      <Filter>Header Files\v3</Filter>
+    </ClInclude>
+    <ClInclude Include="v3\Synapses.hpp">
+      <Filter>Header Files\v3</Filter>
+    </ClInclude>
+    <ClInclude Include="v3\SpikeCase.hpp">
+      <Filter>Header Files\v3</Filter>
+    </ClInclude>
+    <ClInclude Include="v3\SpikeDataSet.hpp">
+      <Filter>Header Files\v3</Filter>
+    </ClInclude>
+    <ClInclude Include="v3\SpikeOptionsStatic.hpp">
+      <Filter>Header Files\v3</Filter>
+    </ClInclude>
+    <ClInclude Include="v3\SpikeStreamDataSet.hpp">
+      <Filter>Header Files\v3</Filter>
+    </ClInclude>
+    <ClInclude Include="v3\SpikeStreamMatlab.hpp">
+      <Filter>Header Files\v3</Filter>
+    </ClInclude>
+    <ClInclude Include="v3\Experiments.hpp">
+      <Filter>Header Files\v3</Filter>
+    </ClInclude>
+    <ClInclude Include="v0\Dumper0.hpp">
+      <Filter>Header Files\v0</Filter>
+    </ClInclude>
+    <ClInclude Include="v0\DumperSpikesMasquelier.hpp">
+      <Filter>Header Files\v0</Filter>
+    </ClInclude>
+    <ClInclude Include="v0\Network0.hpp">
+      <Filter>Header Files\v0</Filter>
+    </ClInclude>
+    <ClInclude Include="v0\Neuron0.hpp">
+      <Filter>Header Files\v0</Filter>
+    </ClInclude>
+    <ClInclude Include="v0\SpikeClassificationMasquelier.hpp">
+      <Filter>Header Files\v0</Filter>
+    </ClInclude>
+    <ClInclude Include="v0\SpikeEpspContainer.hpp">
+      <Filter>Header Files\v0</Filter>
+    </ClInclude>
+    <ClInclude Include="v0\SpikeInputContainerDynamic.hpp">
+      <Filter>Header Files\v0</Filter>
+    </ClInclude>
+    <ClInclude Include="v0\SpikeInputContainerMatlab.hpp">
+      <Filter>Header Files\v0</Filter>
+    </ClInclude>
+    <ClInclude Include="v0\SpikeInputContainerStatic.hpp">
+      <Filter>Header Files\v0</Filter>
+    </ClInclude>
+    <ClInclude Include="v0\SpikeOptionsMasq.hpp">
+      <Filter>Header Files\v0</Filter>
+    </ClInclude>
+    <ClInclude Include="v0\SpikeTools.hpp">
+      <Filter>Header Files\v0</Filter>
+    </ClInclude>
+    <ClInclude Include="v3\Network3.hpp">
+      <Filter>Header Files\v3</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1c1e4da0-bbc9-4a9c-b3b3-b18dfff26e3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\v3">
+      <UniqueIdentifier>{4984a7cb-e464-484e-8c22-65be91108837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\v0">
+      <UniqueIdentifier>{733d7aa9-604c-48d9-b7d2-d3b9179e79f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
